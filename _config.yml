@@ -1,0 +1,4 @@
+title: Your Name
+url: localhost:4000
+plugins:
+  - jekyll-seo-tag
