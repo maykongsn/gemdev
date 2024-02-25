@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: "en" }}">
+<html lang="{{ page.lang | default: " en" }}">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" type="text/css" href="/assets/main.css">
-</head>
+  <link rel="stylesheet" type="text/css" href="/assets/css/all.min.css" </head>
+
 <body>
   <div class="container">
     {%- include header.html -%}
@@ -13,6 +15,106 @@
     <main>
       {{ content }}
     </main>
+    <div class="social">
+      <div class="icons">
+        <ul>
+          {% if site.social.email %}
+          <li>
+            <a href="mailto:{{ site.social.email }}" title="email">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.facebook %}
+          <li>
+            <a href="https://www.facebook.com/{{ site.social.facebook }}" title="Facebook">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.github %}
+          <li>
+            <a href="https://github.com/{{ site.social.github }}" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.instagram %}
+          <li>
+            <a href="http://instagram.com/{{ site.social.instagram }}" title="Instagram">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.linkedin %}
+          <li>
+            <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" title="LinkedIn">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.gitlab %}
+          <li>
+            <a href="https://gitlab.com/{{ site.social.gitlab }}" title="Gitlab">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.twitter %}
+          <li>
+            <a href="https://twitter.com/{{ site.social.twitter }}" title="X"
+              class="type">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-x-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.youtube %}
+          <li>
+            <a href="https://www.youtube.com/user/{{ site.social.youtube }}" title="YouTube">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <span>
+        Made with <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="https://github.com/maykongsn/gemdev">gemdev</a> theme.
+      </span>
+    </footer>
   </div>
 </body>
+
 </html>

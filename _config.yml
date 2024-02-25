@@ -1,4 +1,14 @@
 title: Your Name
 url: localhost:4000
+
+social:
+  email: maykongsn@gmail.com
+  facebook:
+  github: maykongsn
+  instagram:
+  linkedin: maykonnunes 
+  gitlab:
+  twitter:
+
 plugins:
   - jekyll-seo-tag
