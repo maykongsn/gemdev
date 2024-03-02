@@ -15,9 +15,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Projects
 
-* [[ReactSniffer](https://github.com/maykongsn/reactsniffer)] Tool for code smells detection
-* [[JMetrics](https://github.com/maykongsn/jmetrics)] Extracts Java code metrics
-* [[gemdev](https://github.com/maykongsn/gemdev)] Jekyll minimal theme
-* [[CIRef](https://github.com/maykongsn/ciref)] Documentation of Java refactorings
+{% for project in site.projects %}
+  * [[{{ project.name }}]({{ project.url }})] {{ project.description }}
+{% endfor %}
 
 ---
