@@ -141,6 +141,11 @@ body {
   }
 }
 
+figure {
+  margin: 0;
+  padding: 5px 0;
+}
+
 @media (max-width: 800px) {
   .container {
     max-width: 80%;
