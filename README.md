@@ -1,40 +1,63 @@
 # gemdev
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+> A minimalist Jekyll theme for developers.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+---
 
-TODO: Delete this and the text above, and describe your gem
+<div align="center">
+    <img src="https://raw.githubusercontent.com/maykongsn/gemdev/main/assets/screen-shot.png" />
+</div>
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+Follow the steps in [this Jekyll Guide](https://jekyllrb.com/docs/installation/) if you're beginning with Jekyll from scratch.
 
-```ruby
-gem "gemdev"
-```
+1. Create a new Jekyll project
+    ```ruby
+    jekyll new newProject
+    ```
 
-And add this line to your Jekyll site's `_config.yml`:
+2. Build the site and make it available on a local server
+    ```ruby
+    bundle exec jekyll serve --watch
+    ```
 
-```yaml
-theme: gemdev
-```
+3. Add this line to your Jekyll site's `Gemfile`:
 
-And then execute:
+    ```ruby
+    gem "gemdev"
+    ```
 
+4. And add this line to your Jekyll site's `_config.yml`:
+
+    ```yaml
+    theme: gemdev
+    ```
+
+5. And then execute:
+    ```bash
     $ bundle
-
-Or install it yourself as:
-
+    ```
+6. Or install it yourself as:
+    ```bash
     $ gem install gemdev
+    ```
 
+7. To update the theme run:
+    ```bash
+    $ bundle update
+    ```
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+In `_config.yml` you can specify:
+- `header_name`: provide the title in header
+- `url`: specify the site url
+- `social`: list your socials
+- `project`: list your projects providing a name, url and description
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/gemdev. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/maykongsn/gemdev. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 
@@ -47,4 +70,4 @@ To add a custom directory to your theme-gem, please edit the regexp in `gemdev.g
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [MIT](https://github.com/maykongsn/gemdev/blob/master/LICENSE)
