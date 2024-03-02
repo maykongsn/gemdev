@@ -4,6 +4,8 @@ subtitle: Lorem ipsum post
 layout: default
 ---
 
+<div style="text-align: center;"><h2>{{ page.title }}</h2></div>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id justo ultricies velit tincidunt porta non quis libero. Praesent id iaculis diam. Aenean viverra condimentum lorem, eu dignissim eros luctus vel. Sed erat ipsum, malesuada vel mattis quis, iaculis vitae dolor. Vivamus venenatis nisi augue, efficitur molestie sem gravida eget. Nulla non ipsum luctus turpis suscipit rhoncus. Proin eu nibh aliquam sem lobortis hendrerit tincidunt eget ante. Curabitur pretium sit amet eros sed lobortis. Aenean in maximus velit, ut euismod libero. Praesent porta ut diam vitae tristique. Cras ac lacus lorem. Nullam pulvinar gravida diam, in commodo velit sagittis at. Maecenas consequat luctus leo, at vestibulum tellus viverra sit amet. Etiam vel purus eget lorem eleifend sollicitudin. Pellentesque semper sed diam et ullamcorper. Cras dapibus ex in est blandit sodales.
 
 In id magna turpis. Proin viverra nec libero eu elementum. Vivamus enim est, vestibulum a nibh vitae, pharetra consectetur enim. Sed ac sollicitudin augue. Vestibulum in nunc nec diam euismod tristique vitae ut eros. Nunc urna nisl, dictum eu bibendum id, ultrices non augue. Curabitur vitae turpis sed neque fermentum vulputate. Donec porttitor ut augue sed sagittis. Nulla congue purus fringilla diam fermentum, at gravida arcu dapibus. Nam enim urna, ultrices vel justo elementum, ornare mattis nisi. Suspendisse commodo lectus id est vulputate, at tempus mi sollicitudin. Vivamus nec felis ut lacus mattis dignissim ut quis risus. Proin non elit condimentum, placerat nibh sed, ultricies tortor.
