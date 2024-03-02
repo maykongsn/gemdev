@@ -1,5 +1,5 @@
 ---
-title: Title
+title: About gemdev
 lang: en
 layout: default
 ---
