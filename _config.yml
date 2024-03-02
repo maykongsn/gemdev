@@ -10,5 +10,11 @@ social:
   gitlab:
   twitter:
 
+projects:
+  ReactSniffer: Tool for code smells detection
+  JMetrics: Extracts Java code metrics
+  gemdev: Jekyll minimal theme
+  CIRef: Documentation of Java refactorings
+
 plugins:
   - jekyll-seo-tag

@@ -29,7 +29,7 @@ body {
     padding: 25px 0 25px 0;
 
     .developer-name {
-      font-size: 30px;
+      font-size: 24px;
       color: #272727;
       display: inline-block;
       text-decoration: none;
@@ -81,6 +81,28 @@ body {
 
     ul {
       padding: 0 20px 0 20px;
+    }
+  }
+
+  .post {
+    margin: 2rem 0 2rem 0;
+
+    .post-title {
+      max-width: 500px;
+      color: #272727;
+      display: inline-block;
+      font-size: 24px;
+    }
+
+    .post-date {
+      float: right;
+      text-align: right;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .post-subtitle {
+      max-width: 500px;
     }
   }
 

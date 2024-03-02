@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+<article class="post">
+  <a class="post-title" href="{{ site.url }}{{ post.url }}">
+    {{ post.title }}
+  </a>
+  <time class="post-date" datetime="{{ post.date | date: "%d-%m-%Y" }}">
+    {{ post.date | date: "%d-%m-%Y" }}
+  </time>
+
+  <div class="post-content">
+    <p class="post-subtitle">
+      {{ post.subtitle }}
+    </p>
+  </div>
+  <hr/>
+</article>
+{% endfor %}
