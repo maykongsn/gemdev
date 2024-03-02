@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "gemdev"
+  spec.name          = "gemdev-theme"
   spec.version       = "0.1.0"
   spec.authors       = ["maykongsn"]
   spec.email         = ["maykongsn@gmail.com"]
