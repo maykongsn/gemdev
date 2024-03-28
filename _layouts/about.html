@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h2>About</h2>
+
+{{ content }}
+
+<h2>Projects</h2>
+
+{% for project in site.projects %}
+  <ul>
+    <li><p>[<a href="{{ project.url }}">{{ project.name }}</a>] {{ project.description }}</p></li>
+  </ul>
+{% endfor %}
